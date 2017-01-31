@@ -5,10 +5,10 @@ import './App.css';
 // Components
 import Header from './Components/Header';
 import About from './Components/About';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
 import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 class App extends Component {
   constructor(props){
@@ -18,7 +18,9 @@ class App extends Component {
       resumeData:{}
     }
   }
+
   getResumeData(){
+    // fetch data using ajax and jquery
     $.ajax({
       url: 'http://localhost:3000/resumeData.json',
       dataType: 'json',
@@ -35,20 +37,23 @@ class App extends Component {
     });
   }
 
-  ComponentDidMount(){
+  componentDidMount(){
     this.getResumeData();
   }
 
+  /*
+    '{this.state.resumeData.main}' want only main part of data
+  */
   render() {
     console.log(this.state.resumeData);
     return (
       <div className="App">
-        <Header/>
-        <About/>
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio/>
         <Contact/>
         <Footer/>
-        <Portfolio/>
-        <Resume/>
       </div>
     );
   }

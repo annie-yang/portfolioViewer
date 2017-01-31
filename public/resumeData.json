@@ -1,55 +1,27 @@
 {
   "main": {
-    "name":"Annie Yang",
-    "occupation":"Web developer in progress",
-    "description":"I create web applications",
+    "name":"Annie",
+    "occupation":"a front-end web developer in progress.",
     "image":"profilepic.jpg",
-    "bio":"Hard worker",
+    "bio":"I graduated from California State University, Stanislaus in Fall of 2016 with a Bachelor of Science in Computer Science. I am currently working on projects and learning as I go.",
     "email": "annie_y48@hotmail.com",
-    "phone": "555-555-5555",
-    "address":{
-      "street":"933 Albany st, Suite 3",
-      "city":"Boston",
-      "state":"MA",
-      "zip": "20293"
-    },
     "website": "http://www.techguywebsolutions.com",
     "resumedownload":"http://something.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"http://linkedin.com",
+        "url":"https://www.linkedin.com/in/ayang4",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com",
+        "url":"https://www.instagram.com/illusiann/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com",
+        "url":"https://github.com/annie-yang",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -58,42 +30,33 @@
       {
         "school":"California State University of Stanislaus",
         "degree":"Bachelors of Science",
-        "graduated":"December 2016",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
-      },
-      {
-        "school":"School of Cool Designers",
-        "degree":"B.A. Degree in Graphic Design",
-        "graduated":"March 2003",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "graduated":"December 2016"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX Designer ",
-        "years":"March 2010 - Present",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "company":"Elite-MedSpa",
+        "title":"Intern",
+        "years":"January 2016 - February 2016",
+        "description":"Project to add content to their website, design, and edit code through WordPress theme"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"UX Designer",
-        "years":"March 2007 - February 2010",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "company":"JumpStart MD",
+        "title":"Intern",
+        "years":"February 2016 - April 2016",
+        "description":"Project to add recipes content to WordPress and changing/adjusting menu items"
+      },
+      {
+        "company":"Hilmar Cheese Company",
+        "title":"I.S. Intern",
+        "years":"June 2016 - August 2016",
+        "description":"Evaluate, gather data, and analyze process gaps between legacy systems versus SAP"
       }
     ],
     "skills":[
       {
-        "name":"Photoshop",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
         "name":"Wordpress",
-        "level":"50%"
+        "level":"40%"
       },
       {
         "name":"CSS",
@@ -104,7 +67,7 @@
         "level":"80%"
       },
       {
-        "name":"jQuery",
+        "name":"JavaScript",
         "level":"50%"
       }
     ]

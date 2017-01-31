@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 
 class Header extends Component {
   render() {
+    if(this.props.data){
+      var name = this.props.data.name;
+      var occupation = this.props.data.occupation;
+      var networks = this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      }); // map the values of array of social networks
+    }
     return (
       <header id="home">
       <nav id="nav-wrap">
@@ -11,27 +18,18 @@ class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	          <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a className="smoothscroll" href="#portfolio">portfolio</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
-
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Im Jonathan Doe.</h1>
-            <h3>Im a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Lets <a className="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+            <h1 className="responsive-headline">Hi, I'm {name}.</h1>
+            <h3> {occupation} </h3>
             <hr />
             <ul className="social">
-               <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i className="fa fa-skype"></i></a></li>
+               {networks}
             </ul>
          </div>
       </div>
