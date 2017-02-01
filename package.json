@@ -11,9 +11,9 @@
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   }
 }
