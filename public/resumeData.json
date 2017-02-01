@@ -6,7 +6,7 @@
     "bio":"I graduated from California State University, Stanislaus in Fall of 2016 with a Bachelor of Science in Computer Science. I am currently working on projects and learning as I go.",
     "email": "annie_y48@hotmail.com",
     "website": "http://www.techguywebsolutions.com",
-    "resumedownload":"http://something.com",
+    "resumedownload": "https://docs.google.com/document/d/1mL6lFb_Igc9_FJKTihrtT-Dya62Z_HWKsaIMGCm9WpQ/edit?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -75,76 +75,24 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Coffee Cup",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustrator",
-        "tags":"Branding, Web Design",
-        "image":"coffee.jpg",
-        "url":"http://port1.com",
-        "modal":"#modal-01"
+        "title":"Weather",
+        "image":"Weather.jpg",
+        "live":"https://goo.gl/VEZJKO"
       },
       {
-        "title":"Console",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Design",
-        "tags":"Branding, Web Development",
-        "image":"console.jpg",
-        "url":"http://port2.com",
-        "modal":"#modal-02"
+        "title":"Delightful Natural Food",
+        "image":"delightful.jpg",
+        "live":"http://delightfulnaturalfood.com"
       },
       {
-        "title":"Judah",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Branding, Web Programming",
-        "image":"judah.jpg",
-        "url":"http://port3.com",
-        "modal":"#modal-03"
+        "title":"Timer",
+        "image":"timer.jpg",
+        "live":"https://goo.gl/ml15ev"
       },
       {
-        "title":"Into The Light",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Design",
-        "image":"into-the-light.jpg",
-        "url":"http://port4.com",
-        "modal":"#modal-04"
-      },
-      {
-        "title":"Farmer Boy",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Branding",
-        "tags":"Branding, Web Design",
-        "image":"farmerboy.jpg",
-        "url":"http://port5.com",
-        "modal":"#modal-05"
-      },
-      {
-        "title":"Girl",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Graphic Design",
-        "image":"girl.jpg",
-        "url":"http://port6.com",
-        "modal":"#modal-06"
-      },
-      {
-        "title":"Origami",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustration",
-        "tags":"Branding, Illustration",
-        "image":"origami.jpg",
-        "url":"http://port7.com",
-        "modal":"#modal-07"
-      },
-      {
-        "title":"Retrocam",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Photography",
-        "image":"retrocam.jpg",
-        "url":"http://port8.com",
-        "modal":"#modal-08"
+        "title":"React Pack",
+        "image":"reactpack.jpg",
+        "live":"https://goo.gl/mHToAt"
       }
     ]
   }
